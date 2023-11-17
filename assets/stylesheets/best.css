@@ -4,6 +4,7 @@
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
+    font-size:100%;
 }
 
 body {
@@ -17,4 +18,9 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #464646;
+}
+
+.context{
+    color:#464646;
+    width: max(40%, 300px);
 }
