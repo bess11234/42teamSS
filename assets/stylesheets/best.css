@@ -4,7 +4,7 @@
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    font-size:100%;
+    font-size: 100%;
 }
 
 body {
@@ -18,9 +18,23 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #464646;
+    overflow-x: hidden;
 }
 
-.context{
-    color:#464646;
+.img1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif) 0 0 no-repeat fixed;
+    background-image: url(https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #464646;
+}
+
+.context {
+    color: #464646;
     width: max(40%, 300px);
 }
