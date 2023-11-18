@@ -58,11 +58,12 @@ body {
     width: 100vw;
     height: auto;
     background-color: rgb(245, 245, 245);
+    /* background-image: url("https://www.it.kmitl.ac.th/~pattarachai/PIC/BG/stone.gif"); */
 }
 
 #about-container {
     margin: 0 auto;
-    width: 420px;
+    width: 512px;
 }
 
 
