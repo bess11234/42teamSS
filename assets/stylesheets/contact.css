@@ -63,7 +63,8 @@ body {
 
 #about-container {
     margin: 0 auto;
-    width: 512px;
+    width: 100%;
+    max-width: 512px;
 }
 
 
