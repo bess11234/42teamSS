@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      // window.location.href = 'pages/best.html';
-    </script>
+    <title>Rush</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/stylesheets/global.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        margin: -20px 0 5px 0; /* This is only an estimate of a margin*/
+      }
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
 
-  <body>
+  <body class="select-none" style="overflow-y: hidden">
     <nav
       class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600 right-0 left-0"
       style="z-index: 99"
@@ -32,14 +56,14 @@
             class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700"
           >
             <li></li>
-            <li onclick="window.location.replace('../pages/best.html')">
-              <a
+            <li>
+              <a href="./pages/best.html"
                 class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >Best</a
               >
             </li>
-            <li onclick="window.location.replace('../pages/tae.html')">
-              <a
+            <li>
+              <a href="./pages/tae.html"
                 class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >Tae</a
               >
@@ -49,9 +73,24 @@
       </div>
     </nav>
 
-    <div class="flex flex-row">
-      <div style="width: 50%; height: 100vh; background-color: red"></div>
-      <div style="width: 50%; height: 100vh; background-color: aliceblue"></div>
+    <div class="flex flex-row" style="margin-top: 65px">
+      <!-- <div class="flex-1 text-center" style="height: 100vh">
+        <h1 class="content-center">Best</h1>
+      </div> -->
+    </div>
+
+    <div
+      class="grid grid-cols-2 gap-0 content-center text-center static"
+      style="height: 100vh"
+    >
+      <div class="container">
+        <img src="./assets/images/best2.webp" alt="" />
+        <h1 class="centered text-2xl" style="font-weight: 800;">Best</h1>
+      </div>
+      <div class="container">
+        <img src="./assets/images/tae.webp" alt="" />
+        <h1 class="centered text-2xl" style="color:black;font-weight: 800;">Tae</h1>
+      </div>
     </div>
   </body>
 </html>
