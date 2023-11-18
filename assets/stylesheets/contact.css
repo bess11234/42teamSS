@@ -52,8 +52,8 @@ body {
     margin-right: auto; */
     /* max-width: 1280px; */
     /* min-width: 960px; */
-    width: 100%;
-    padding: 32px 22px;
+    /* width: 100%; */
+    /* padding: 32px 22px; */
 }
 
 #contact {
@@ -65,6 +65,10 @@ body {
     /* width: max(30%, 300px); */
 }
 
+.contact-skill {
+    padding: 0 !important;
+}
+
 .skill {
     margin-top: 20px;
     background-color: white;
@@ -74,5 +78,6 @@ body {
 }
 
 .main-container {
-    color: black;;
+    color: black;
+    ;
 }
