@@ -4,6 +4,18 @@
     color: #0373DE;
     caret-color: #0373DE;
 } */
+.blur-effect {
+    --colornav-backdrop-filter-opacity: 1;
+    --colornav-bg-alpha: .8;
+    backdrop-filter: blur(22px) saturate(1.86);
+    -webkit-backdrop-filter: blur(15px) saturate(86%);
+    backface-visibility: hidden;
+    background: rgba(245, 245, 247, .82);
+    opacity: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
 
 
 .main_container {
@@ -44,6 +56,10 @@
     padding: 52px 0;
     max-width: 1080px !important;
     min-height: 70vh
+}
+
+.blue-text {
+    color: rgb(3, 115, 222) !important;
 }
 
 .main-rounded {
