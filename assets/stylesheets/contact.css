@@ -60,20 +60,15 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-
-#main-content section {
-    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* max-width: 1280px; */
-    /* min-width: 960px; */
-    /* width: 100%; */
-    /* padding: 32px 22px; */
+#about-container {
+    margin: 0 auto;
+    width: 420px;
 }
+
 
 #name-grid-container {
     max-width: 640px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 #contact-container {
@@ -83,8 +78,15 @@ body {
     row-gap: 14px;
 }
 
-#contact-container p {
+#contact-container p,
+#about-container p {
     font-weight: 200;
+}
+
+#contact-container h4,
+#about-container h4¡ {
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
