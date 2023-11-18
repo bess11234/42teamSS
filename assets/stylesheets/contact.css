@@ -56,6 +56,18 @@ body {
     /* padding: 32px 22px; */
 }
 
+#contact-container {
+    color: #464646;
+    margin: 10px auto 0 auto;
+    max-width: 420px;
+    row-gap: 14px;
+}
+
+#contact-container p {
+    font-weight: 200;
+}
+
+
 #contact {
     margin-top: 20px;
     /* background-color: white; */
@@ -63,6 +75,16 @@ body {
     color: #464646;
     width: 100%;
     /* width: max(30%, 300px); */
+}
+
+#contact-email email {
+    text-align: right;
+}
+
+
+.contact-row {
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact-skill {
@@ -79,7 +101,6 @@ body {
 
 .main-container {
     color: black;
-    ;
 }
 
 h2 {
