@@ -40,8 +40,8 @@
 .main-container {
     background-color: transparent;
     justify-content: center;
-    margin: 32px auto;
-    max-width: 1320px !important;
+    margin: 0 auto;
+    max-width: 1080px !important;
     min-height: 70vh
 }
 
@@ -49,7 +49,7 @@
     background-color: #fff;
     border-radius: 22px;
     margin: 0 12px;
-    min-height: 500px;
+    /* min-height: 500px; */
     padding: 22px 32px 20px !important
 }
 
