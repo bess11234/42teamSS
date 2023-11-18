@@ -58,6 +58,10 @@
     min-height: 70vh
 }
 
+.blue-text {
+    color: rgb(3, 115, 222) !important;
+}
+
 .main-rounded {
     background-color: #fff;
     border-radius: 22px;
