@@ -4,3 +4,7 @@ body {
     background-position: center;
     background-color: #464646;
 }
+
+#about-container {
+    margin: 0 auto;
+}
