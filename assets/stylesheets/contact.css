@@ -67,6 +67,12 @@ body {
     max-width: 512px;
 }
 
+.contact-row {
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 12px;
+}
+
 
 #name-grid-container {
     max-width: 640px;
@@ -106,10 +112,7 @@ body {
 }
 
 
-.contact-row {
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .contact-skill {
     padding: 0 !important;
