@@ -1,104 +1,338 @@
 <!DOCTYPE html>
 <html data-bs-theme="dark">
+  <head>
+    <title>kasomsri</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/stylesheets/best.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title></title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/stylesheets/best.css">
-</head>
-
-<body class="bg-dark-subtle user-select-none">
-  <header style="padding-bottom: 56px">
-    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="rush.html"><i class="bi bi-house"></i> HOME</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-sm-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-person-bounding-box"></i> About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-motherboard"></i> Skill & Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-question-circle"></i> Contract</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdownId"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Dropdown</a
-                >
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="#">Action 1</a>
-                  <a class="dropdown-item" href="#">Action 2</a>
-                </div>
-              </li> -->
-            </ul>
+  <body class="bg-dark-subtle user-select-none">
+    <header style="padding-bottom: 56px">
+      <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../"
+            ><i class="bi bi-house"></i> HOME</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-sm-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"
+                    ><i class="bi bi-person-bounding-box"></i> About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skill"
+                    ><i class="bi bi-motherboard"></i> Skill</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact"
+                    ><i class="bi bi-question-circle"></i> Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+      </nav>
+    </header>
+
+    <section
+      class="flex p-4 text-start g-3"
+      style="width: 100vw; height: 650px"
+    >
+      <div
+        class="text-break position-relative top-50"
+        style="padding-left: 5vw; width: 50vw"
+      >
+        <p class="h1">Hello,</p>
+        <p class="h3">I'm Kanisorn Somsriagsornsang</p>
+        <code class="font-monospace font-light text-white-50 text-sm">
+          A Jobless/Sleepless/Powerless. You can call me<br>
+          <b class="text-sky-200 h3">Best</b>, your friendly <b class="text-orange-200 h3">Developer</b>.
+        </code>
       </div>
-    </nav>
-  </header>
+    </section>
 
-  <section class="flex p-4 text-start g-3" style="width: 100vw; height: 600px">
-    <div class="text-break position-absolute top-50" style="padding-left: 5vw; width: 40vw">
-      <h1>Hello,</h1>
-      <h3>I'm Kanisorn Somsriagsornsang</h3>
-      <h6 class="fw-light">
-        A Jobless. You can call me
-        <b class="text-primary-emphasis h3">Best</b>, your friendly
-        Neighborhood.
-      </h6>
+    <div style="width: 100vw; height: auto; background-color: #eaeaea" id="about">
+      <center>
+        <br />
+        <section
+          
+          class="flex p-3 flex-col text-start g-3 shadow context"
+          style="margin-top: 20px; background-color: white; border-radius: 20px"
+        >
+          <div class="text-break text-center" style="margin: 0 auto">
+            <p class="h1">About</p>
+            <hr style="width: 10%; margin: 0 auto" />
+
+            <p class="h6" style="font-weight: lighter">
+              <br />So this's my "about me", when I write this I think about how
+              to pronouns myself but It's just about what you want to be, or
+              something that amazes you, but I don't want to write about all I'm
+              bubble about, So It's just that I want to be a person that able to
+              use, learn, adapt, and advance in code-languages as much as
+              possible.
+            </p>
+          </div>
+
+          <center>
+            <div
+              class="grid grid-cols-3 place-content-between text-lg w-auto col-auto"
+              style="color: #464646; margin-top: 10px"
+            >
+              <div class="text-start col-2 ml-5">Name</div>
+              <div class="text-end col-span-2 me-4">
+                Kanisorn Somsriagsornsang
+              </div>
+
+              <div class="text-start col-auto ml-5">Age</div>
+              <div class="text-end col-span-2 me-4" style="text-align: end">
+                19
+              </div>
+
+              <div class="text-start col-auto ml-5">Birth</div>
+              <div class="text-end col-span-2 me-4" style="text-align: end">
+                17 Dec 2003
+              </div>
+
+              <div class="text-start col-auto ml-5">Level</div>
+              <div class="text-end col-span-2 me-4" style="text-align: end">
+                12.66
+              </div>
+            </div>
+          </center>
+        </section>
+      </center>
+
+      <center>
+        <br id="skill" />
+        <section
+          
+          class="flex p-3 flex-col text-start g-3 shadow"
+          style="
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 20px;
+            color: #464646;
+            width: max(70%, 300px);
+          "
+        >
+          <div class="text-break text-center" style="margin: 0 auto">
+            <p class="h1">Skill</p>
+            <hr style="width: 80%; margin: 0 auto; margin-bottom: 10px" />
+          </div>
+
+          <center>
+            <div
+              class="grid grid-cols-4 place-content-between text-lg w-auto col-auto"
+              style="color: #464646; margin-top: 10px; flex: 1 1 0px"
+            >
+              <div class="grid grid-cols-1">
+                Python<img
+                  src="https://www.svgrepo.com/show/376344/python.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-cols-1">
+                JAVA<img
+                  style="width: 50%; margin: 0 auto"
+                  src="https://nerdysoft.com/wp-content/uploads/2021/11/java-14-1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-cols-1">
+                PHP<img
+                  style="width: 75%; margin: 0 auto"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-cols-1">
+                SQL<img
+                  style="width: 75%; margin: 0 auto"
+                  src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </center>
+          
+        </section>
+        <br />
+      </center>
     </div>
-  </section>
 
-  <section class="flex p-4 text-start g-3" style="width: 100vw; height: 600px; background-color: aliceblue">
-    <div class="text-center text-break" style="color: #464646; width: 50%; margin:0 auto;">
-      <h1>About</h1>
-      <hr style="width: 10%;margin: 0 auto;" />
-      <p>So this's my "about me", when I write this I think about how to pronouns myself but It's just about what you
-        want to be, or something that amazes you, but I don't want to write about all I'm bubble about, So
-        I want to be a person that able to use, learn, adapt, and advance in code-languages as the most as possible.
-      </p>
+    <div class="img1" style="height:350px;">
+      <center>
+        <br id="contact" />
+        <section
+          
+          class="flex p-3 flex-col text-break text-start g-3 shadow"
+          style="
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 20px;
+            color: #464646;
+            width: max(30%, 300px);
+          "
+        >
+          <div class="text-break" style="width: fit-content">
+            <p class="h3">Contact</p>
+            <hr style="margin: 0 auto; margin-bottom: 10px" />
+          </div>
+          <div
+            class="grid grid-cols-8 place-content-between text-lg w-100 gap-2"
+            style="
+              color: #464646;
+              margin-top: 10px;
+              flex: 1 1 0px;
+              margin: 0 auto;
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 opacity-75 ml-3"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <div class="col-span-7 fw-light ml-1">+66 0923924477</div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 opacity-75 ml-3"
+            >
+              <path
+                d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+              />
+              <path
+                d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+              />
+            </svg>
+            <div class="col-span-7 fw-light ml-1">
+              bess112233@gmail.com, 65070028@kmitl.ac.th
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              class="w-6 h-6 opacity-50 ml-3"
+            >
+              <path
+                d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"
+              ></path>
+            </svg>
+            <div
+              class="col-span-7 fw-light hover:underline decoration-sky-500 ml-1"
+              onclick="window.open('https://www.facebook.com/kanlsorn.somsrlagsornsang')"
+              style="cursor: pointer;"
+            >
+              Kanisorn Somsriagsornsang
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 50 50"
+              class="w-6 h-6 opacity-50 ml-3"
+            >
+              <path
+                d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"
+              ></path>
+            </svg>
+            <div
+              class="col-span-7 fw-light hover:underline decoration-red-500 ml-1"
+              onclick="window.open('https://www.instagram.com/best_kan1/')"
+              style="cursor: pointer;"
+            >
+              best_kan1
+            </div>
+          </div>
+        </section>
+      </center>
+      <br />
     </div>
-  </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
+    <div style="width: 100vw; height: auto; background-color: #eaeaea;padding:100px">
+    </div>
+    <div style="width: 100vw; height: 800px;"></div>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
