@@ -13,6 +13,8 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet" />
@@ -27,8 +29,8 @@
 
     <nav class="border-gray-200 bg-gray-900 fixed top-0 right-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <a href="../" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <div class="icon_home w-8 h-8"></div>
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Home</span>
         </a>
         <button data-collapse-toggle="navbar-default" type="button" onclick=content()
@@ -43,18 +45,18 @@
 
         <div class="hidden w-full md:block md:w-auto" id="navbar-content">
           <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700">
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-900 md:bg-gray-900">
             <li>
-              <a href="#about"
+              <a href="#main-content"
                 class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent">About</a>
             </li>
             <li>
               <a href="#skill"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Skill</a>
+              class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Skill</a>
             </li>
             <li>
               <a href="#contact"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Contact</a>
+              class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,7 +65,7 @@
   </header>
 
   <!-- Picture Section -->
-  <section id="header-section" class="flex  text-white" style="">
+  <section id="header-section" class="flex text-white" style="">
     <div id="header-container" style="">
       <p class="text-8xl">Hello,</p>
       <p class="text-5xl whitespace-normal break-normal">I'm Kanisorn</p>
@@ -167,14 +169,14 @@
           <div id="contact-container" class="flex flex-col">
 
             <div id="contact-phone" class="flex flex-row contact-row">
-              <div class="icon_phone w-6 h-6 opacity-50"></div>
+              <div class="icon_phone w-7 h-7 opacity-50"></div>
               <p class="">
                 +66 0923924477
               </p>
             </div>
 
             <div id="contact-email" class="flex flex-row contact-row">
-              <div class="icon_email w-6 h-6 opacity-50"></div>
+              <div class="icon_email w-7 h-7 opacity-50"></div>
               <p class="flex flex-col">
                 <email>bess112233@gmail.com</email>
                 <email>65070028@kmitl.ac.th</email>
@@ -182,7 +184,7 @@
             </div>
 
             <div id="contact-facebook" class="flex flex-row contact-row">
-              <div class="icon_facebook w-6 h-6 opacity-50"></div>
+              <div class="icon_facebook w-7 h-7 opacity-50"></div>
               <p class="hover:underline decoration-sky-300"
                 onclick="window.open('https://www.facebook.com/kanlsorn.somsrlagsornsang')" style="cursor: pointer;">
                 Kanisorn Somsriagsornsang
@@ -190,7 +192,7 @@
             </div>
 
             <div id="contact-ig" class="flex flex-row contact-row">
-              <div class="icon_instagram w-6 h-6 opacity-50"></div>
+              <div class="icon_instagram w-7 h-7 opacity-50"></div>
               <p class="hover:underline decoration-sky-300"
                 onclick="window.open('https://www.instagram.com/best_kan1/')" style="cursor: pointer;">
                 best_kan1
