@@ -37,6 +37,22 @@
     opacity: 1;
 }
 
+.main-container {
+    background-color: transparent;
+    justify-content: center;
+    margin: 32px auto;
+    max-width: 1320px !important;
+    min-height: 70vh
+}
+
+.main-rounded {
+    background-color: #fff;
+    border-radius: 22px;
+    margin: 0 12px;
+    min-height: 500px;
+    padding: 22px 32px 20px !important
+}
+
 .blue_button {
     background-color: #0373DE !important;
     /*font-size: medium !important;*/
@@ -79,4 +95,3 @@ body {
 .text-h5 {
     font-family: "Sarabun", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, "Roboto", sans-serif !important;
 }
-
