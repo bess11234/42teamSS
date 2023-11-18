@@ -1,57 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <script>
-        // window.location.href = 'pages/best.html';
-    </script>
+  <head>
+    <title>Rush</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    p
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-            rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
     />
-</head>
+    <link rel="stylesheet" href="./assets/stylesheets/global.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/contact.css" />
+    <style>
+      body{
+        background: none;
+        background-color: #f2f2f2;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<body>
-<nav
-        class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600 right-0 left-0"
-        style="z-index: 99"
->
-    <div
-            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+  <body class="select-none" style="overflow-y: hidden">
+    <nav
+      class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600 right-0 left-0"
+      style="z-index: 99"
     >
-        <a class="flex items-center space-x-3 rtl:space-x-reverse" href=".">
-          <span
-                  class="self-center text-2xl font-semibold whitespace-nowrap text-white"
-          >Rush Project</span
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="." class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="assets/images/icon42.png" class="w-8" alt=""><span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+            >Rush Project</span
           >
         </a>
         <div
-                class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-                id="navbar-sticky"
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
         >
-            <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700"
-            >
-                <li></li>
-                <li onclick="window.location.replace('../pages/best.html')">
-                    <a
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
-                    >Best</a
-                    >
-                </li>
-                <li onclick="window.location.replace('../pages/tae.html')">
-                    <a
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
-                    >Tae</a
-                    >
-                </li>
-            </ul>
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700"
+          >
+            <li></li>
+            <li>
+              <a
+                href="./pages/best.html"
+                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                >Best</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/tae.html"
+                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-gray-400 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                >Tae</a
+              >
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-<div class="flex flex-row">
-    <div style="width: 50%; height: 100vh; background-color: red"></div>
-    <div style="width: 50%; height: 100vh; background-color: aliceblue"></div>
-</div>
-</body>
+    <div class="flex flex-row" style="margin-top: 65px">
+    </div>
+
+    <section class="flex p-3 flex-col text-start g-3 contact-skill">
+      <div class="text-break text-center" style="margin: 0 auto">
+        <h2>Choose your <b class="animate-pulse text-blue-500">pisciner</b></h2>
+
+        <!-- <hr style="width: 80%; margin: 0 auto; margin-bottom: 10px"/> -->
+      </div>
+      <br>
+      <div
+        class="flex flex-row place-content-between text-lg w-auto col-auto text-center"
+        style="color: #464646; margin-top: 10px"
+      >
+        <div class="flex-1 main-rounded">
+          Python<img
+            class="hover:-translate-y-3 duration-100"
+            src="https://www.svgrepo.com/show/376344/python.svg"
+            alt=""
+          />
+        </div>
+        <div class="flex-1 main-rounded">
+          JAVA<img
+            class="hover:-translate-y-3 duration-100"
+            style="width: 50%; margin: 0 auto"
+            src="https://nerdysoft.com/wp-content/uploads/2021/11/java-14-1.svg"
+            alt=""
+          />
+        </div>
+        <div class="flex-1 main-rounded align-middle">
+          <div>PHP</div>
+          <div>
+            <img
+              class="hover:-translate-y-3 duration-100"
+              style="width: 75%; margin: 0 auto;"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex-1 main-rounded">
+          SQL<img
+            class="hover:-translate-y-3 duration-100"
+            style="width: 65%; margin: 0 auto"
+            src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
